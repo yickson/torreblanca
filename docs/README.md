@@ -11,6 +11,6 @@ features:
 - title: Personajes
   details: Son los distintos vigilantes que envía la torre a los mundos ilimitados existentes.
 - title: Trama
-  details: No esperes una trama donde el héroe siempre vence al mal.
+  details: No esperes una historia donde el héroe siempre vence al mal.
 footer: Copyright © 2020-presente Yickson R.
 ---
