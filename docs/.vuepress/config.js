@@ -5,21 +5,27 @@ module.exports = {
       nav: [
         { text: 'Inicio', link: '/' },
         { text: 'Historias', link: '/historias/' },
+        { text: 'Noriem', link: '/noriem/' },
         { text: 'Api', link: '/api/' }
       ],
-      sidebar: {
-        '/historias/': [
-          '',
-          'noriem'
-        ],
-  
-        // '/bar/': [
-        //   '',      /* /bar/ */
-        //   'three', /* /bar/three.html */
-        //   'four'   /* /bar/four.html */
-        // ],
-  
-        '/api/': 'auto', /* automatically generate single-page sidebars */
+      sidebar: [
+          {
+            title: 'Historias',
+            collapsable: false,
+            children: [
+              '',
+              'historias/noriem',
+            ]
+          },
+          {
+            title: 'Noriem',
+            collapsable: true,
+            children: [
+                'noriem/',
+                'noriem/vigilantes',
+                'noriem/llegada'
+            ]
+          }
+        ]
       }
-    }
   }
