@@ -25,6 +25,13 @@ module.exports = {
                 'noriem/vigilantes',
                 'noriem/llegada'
             ]
+          },
+          {
+            title: 'Exenom',
+            collapsable: true,
+            children: [
+                'exenom/',
+            ]
           }
         ]
       }
