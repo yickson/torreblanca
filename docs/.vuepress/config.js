@@ -38,6 +38,7 @@ module.exports = {
             collapsable: true,
             children: [
                 'exenom/',
+                'exenom/inicio'
             ]
           }
         ]

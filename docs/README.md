@@ -10,7 +10,7 @@ features:
   details: Una torre en el centro del universo que mantiene el bien y la luz.
 - title: Personajes
   details: Son los distintos vigilantes que envía la torre a los mundos ilimitados existentes.
-- title: Trama
-  details: No esperes una historia donde el héroe siempre vence al mal.
+- title: Desarrollo
+  details: Una lucha eterna entre el bien y el mal.
 footer: Copyright © 2020-presente Yickson R.
 ---
